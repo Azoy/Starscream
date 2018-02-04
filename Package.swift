@@ -39,7 +39,7 @@ let package = Package(
     targets: [
         .target(
             name: "Starscream",
-            dependencies: ["SSCZLib", "SSCommonCrypto"],
+            dependencies: [],
             path: "Sources/"
         )
     ]

@@ -33,7 +33,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/Azoy/common-crypto-spm.git",
-            uptToNextMajor(from: "1.0.0")
+            upToNextMajor(from: "1.0.0")
         )
     ],
     targets: [

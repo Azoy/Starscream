@@ -28,11 +28,11 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/daltoniam/zlib-spm.git",
+            url: "https://github.com/Azoy/zlib-spm.git",
             upToNextMajor(from: "1.0.0")
         ),
         .package(
-            url: "https://github.com/daltoniam/common-crypto-spm",
+            url: "https://github.com/Azoy/common-crypto-spm.git",
             uptToNextMajor(from: "1.0.0")
         )
     ],

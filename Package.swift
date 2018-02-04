@@ -29,11 +29,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/Azoy/zlib-spm.git",
-            upToNextMajor(from: "1.0.0")
+            .upToNextMajor(from: "1.0.0")
         ),
         .package(
             url: "https://github.com/Azoy/common-crypto-spm.git",
-            upToNextMajor(from: "1.0.0")
+            .upToNextMajor(from: "1.0.0")
         )
     ],
     targets: [
